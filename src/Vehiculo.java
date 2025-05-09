@@ -45,20 +45,20 @@ public class Vehiculo {
 class Auto extends Vehiculo {
     // Constructor de la clase Auto
     public Auto(String codigo, String marca, int modelo, double kilometraje) {
-        super(codigo, marca,tipo, modelo, kilometraje); // Llama al constructor de Vehiculo
+        super(codigo, marca,"Auto", modelo, kilometraje); // Llama al constructor de Vehiculo
     }
 }
 
 class Camioneta extends Vehiculo {
     // Constructor de la clase Camioneta
-    public Camioneta(String *****, String marca, int *****, double kilometraje) {
-        super(codigo, marca, "Camioneta", modelo, ***********);
+    public Camioneta(String codigo, String marca, int modelo, double kilometraje) {
+        super(codigo, marca, "Camioneta", modelo, kilometraje);
     }
 }
 
 class Motocicleta extends Vehiculo {
     // Constructor de la clase Motocicleta
-    public Motocicleta(String codigo, String marca, int modelo, double ********) {
-        super(codigo, ********, "Motocicleta", modelo, kilometraje);
+    public Motocicleta(String codigo, String marca, int modelo, double kilometraje) {
+        super(codigo, marca, "Motocicleta", modelo, kilometraje);
     }
 }
